@@ -11,7 +11,7 @@ public class BallController : MonoBehaviour
     void Start()
     {
         pos = gameObject.transform.position;
-        speed = 0.001f;
+        speed = 0.0007f;
     }
 
     // Update is called once per frame
