@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\GreenFieldController.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\Tier 2 Scripts\QuadController.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\TestController.cs" />
     <Compile Include="Assets\Scripts\WorldController.cs" />
+    <Compile Include="Assets\TimedSpawnController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

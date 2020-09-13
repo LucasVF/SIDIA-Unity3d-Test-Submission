@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+//===============================
+//Tier 2 Unity Test - Question 4
+//===============================
+
 //Script to make sure Cube is rendered at desired AxB pixel resolution
 public class CubeVisual : MonoBehaviour
 {

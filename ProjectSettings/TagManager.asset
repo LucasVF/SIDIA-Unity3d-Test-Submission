@@ -9,6 +9,7 @@ TagManager:
   - PauseDisplay
   - ResultDisplay
   - GameDisplay
+  - World
   layers:
   - Default
   - TransparentFX

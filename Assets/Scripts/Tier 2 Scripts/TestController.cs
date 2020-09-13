@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+//===============================
+//Tier 2 Unity Test - Question 5
+//===============================
+
 //Script to know what is the current UV position user is pointing to
 //Script was created on the Assumption that camera is inside object where 360 Image will be displayed
 public class TestController : MonoBehaviour

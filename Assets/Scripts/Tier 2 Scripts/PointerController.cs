@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//===============================
+//Tier 2 Unity Test - Question 5
+//===============================
+
 //Script to display the current UV position user is pointing to, done by collinding with Mesh Collider from image
 public class PointerController : MonoBehaviour
 {

@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//===============================
+//Tier 2 Unity Test - Question 3
+//===============================
+
 //Script to apply desired effect upon a Quad being seen
 //Script only works if the only possible collision happens with Field of View Collider
 //If more collisions are possible, a verification should be done on collision
