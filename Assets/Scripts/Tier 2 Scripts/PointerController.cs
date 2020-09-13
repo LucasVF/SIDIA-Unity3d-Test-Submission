@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Script to display the current UV position user is pointing to, done by collinding with Mesh Collider from image
 public class PointerController : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -18,16 +19,16 @@ public class PointerController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        //Get a point of collision 
         Vector3 pointedAt = collision.GetContact(0).point;
 
-        MeshFilter filter = GameObject.FindGameObjectWithTag("Image").GetComponent<MeshFilter>();
-        Mesh mesh = filter.mesh;
-        Bounds bounds = mesh.bounds;
+        //Convert point of collision, the same way UV Coordinates were created for Images' Mesh        
+        Vector2 uv = TestController.convertWorldToUV(pointedAt);
 
-        Vector2 uv = new Vector2(pointedAt.x, pointedAt.z);
-
+        //Display UV Coordinate on Console
         Debug.Log(uv);
 
+        //Pointer is deactivated as to collide once again, when activated again
         gameObject.SetActive(false);
     }
 

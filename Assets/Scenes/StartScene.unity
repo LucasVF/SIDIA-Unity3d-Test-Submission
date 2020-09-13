@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217148763}
   m_Layer: 0
-  m_Name: Obstacles
+  m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 808187203}
   - component: {fileID: 808187202}
   m_Layer: 0
-  m_Name: ObstacleCenter
+  m_Name: TreeCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 818891702}
   - component: {fileID: 818891707}
   m_Layer: 0
-  m_Name: ObstacleRight
+  m_Name: TreeRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 943280896}
   - component: {fileID: 943280901}
   m_Layer: 0
-  m_Name: ObstacleLeft
+  m_Name: TreeLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
