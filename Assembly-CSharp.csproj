@@ -62,13 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\GreenFieldController.cs" />
-    <Compile Include="Assets\Scripts\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Start Scene Background\BallController.cs" />
+    <Compile Include="Assets\Scripts\Start Scene Background\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\CubeVisual.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\PointerController.cs" />
