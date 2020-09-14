@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\GreenFieldController.cs" />
+    <Compile Include="Assets\Scripts\ObstacleController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\Start Scene Background\BallController.cs" />
@@ -75,8 +75,9 @@
     <Compile Include="Assets\Scripts\Tier 2 Scripts\PointerController.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\QuadController.cs" />
     <Compile Include="Assets\Scripts\Tier 2 Scripts\TestController.cs" />
+    <Compile Include="Assets\Scripts\TimedSpawnController.cs" />
     <Compile Include="Assets\Scripts\WorldController.cs" />
-    <Compile Include="Assets\TimedSpawnController.cs" />
+    <None Include="Assets\Imports\ICE_sushishop\Shader\Glass.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
